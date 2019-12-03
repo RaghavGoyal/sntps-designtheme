@@ -1,0 +1,76 @@
+html
+{
+	font-size: 16px;
+}
+.parent
+{
+	height: 700px;
+	width: 100%;
+	border:2px solid blue;
+}
+
+.parent__side h2 {
+	
+}
+
+.parent__side
+{
+	height: 685px;
+	width: 49%;
+	float: left;
+	border: 2px solid red;
+	background-color: #e9e9e9;
+	margin: 5px;
+}
+
+.parent__side-text
+{
+	padding: 15px;
+	margin-top: 0;
+	text-align: justify;
+
+}
+
+.parent__side-input[type="text"]
+{
+	margin: 30px;
+	margin-top: 0px;
+	width:85%;
+}
+
+.parent__side-input[type="text"]:hover
+{
+	background-color: #f0f0f0
+}
+
+.parent__side--button
+{
+	margin-left:30px;
+}
+input:checked
+{
+	margin-bottom: 2em;
+}
+.para1:hover
+{
+	background-color: black;
+	color: white;
+	padding:15px;
+}
+
+.para2:first-line
+{
+	font-family: Impact;
+	padding: 15px 5px;
+}
+
+.para3::selection
+{
+	color: red;
+	background: yellow;
+}
+
+.para4
+{
+	font-size: 0.75rem;
+}
